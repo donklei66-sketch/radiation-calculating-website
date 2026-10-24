@@ -1,0 +1,54 @@
+{
+  "checks": [
+    "mixed hot and cold blocks never produce a single approved vertical field",
+    "unavailable directions cannot create a valid maximum field",
+    "a partial cold-floor case draws both actual boundary contours from the same field",
+    "exported report canvas draws both colored boundaries using its own field rather than the current page geometry"
+  ],
+  "unknown": {
+    "finite": false,
+    "reference": true,
+    "text": "本高度最大温差参考点 · 顶 / 地 Δtpr = 17.50 ℃未确定单一工况，不设置全场合格限值。"
+  },
+  "invalid": {
+    "worst": null,
+    "invalid": 374,
+    "count": 374,
+    "text": "占据区无有效评估点。"
+  },
+  "dual": {
+    "thresholds": [
+      {
+        "id": "floor-cooling-long",
+        "limit": 4.1,
+        "status": "partial",
+        "segments": 114
+      },
+      {
+        "id": "floor-cooling-short",
+        "limit": 6.4,
+        "status": "partial",
+        "segments": 98
+      }
+    ],
+    "sameField": true
+  },
+  "reportProof": {
+    "thresholds": [
+      {
+        "limit": 4.1,
+        "segments": 114
+      },
+      {
+        "limit": 6.4,
+        "segments": 98
+      }
+    ],
+    "strokes": {
+      "rgba(255, 255, 255, 0.95)": 212,
+      "#a83250": 114,
+      "#8a5a12": 98
+    }
+  },
+  "errors": []
+}

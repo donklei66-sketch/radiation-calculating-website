@@ -1,0 +1,28 @@
+{
+  "checks": [
+    "approved description and 0.6 m retained; duplicate inputs removed; single ceiling auto-detected",
+    "cold floor auto-detected; both exposure criteria retained; 3D displays the selected long-time plane with the original global formula",
+    "M2 follows the original global formula switch without a second selector",
+    "surface temperature change automatically selects floor heating and 4.9 K",
+    "dual-face target shown only when needed; switching criterion preserves all surface contributions",
+    "unchecking the selected target falls back to the remaining active face",
+    "no active panel produces a reference field without a false engineering pass",
+    "390 / 768 / 1440 layouts retain controls and both readable criteria without overflow",
+    "export report shares both thresholds and formula; repeated paper names removed"
+  ],
+  "thresholds": [
+    {
+      "id": "floor-cooling-long",
+      "limit": 4.1,
+      "status": "partial",
+      "segments": 71
+    },
+    {
+      "id": "floor-cooling-short",
+      "limit": 6.4,
+      "status": "none",
+      "segments": 0
+    }
+  ],
+  "errors": []
+}

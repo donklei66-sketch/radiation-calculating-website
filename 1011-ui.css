@@ -1,0 +1,21 @@
+#view-segments .seg-detail-layout {gap:0}
+#view-segments #seg_partition_detail {padding-right:22px}
+#view-segments #seg_region_details {border-left:1px solid var(--line,#dbe3ee);padding-left:22px}
+#view-segments .seg-camera-help {text-align:center;color:var(--muted,#64748b);margin:10px auto 0}
+#seg_ray_canvas,#vf1010_scene {touch-action:none}
+#view-segments .seg-geometry-layout {display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,3.2fr) minmax(220px,1fr);grid-template-areas:"front table side";gap:20px;align-items:center;margin:18px auto 12px;max-width:1860px}
+#view-segments #seg_geometry_parameters {grid-area:table;min-width:0}
+#view-segments .seg-geometry-front {grid-area:front}
+#view-segments .seg-geometry-side {grid-area:side}
+#view-segments .seg-geometry-view {margin:0;min-width:0;width:100%;max-width:330px;justify-self:center;background:var(--panel,#f8fafc);border:1px solid var(--line,#dbe3ee);border-radius:10px;overflow:hidden}
+#view-segments .seg-geometry-view figcaption {padding:14px 12px 4px;text-align:center;line-height:1.6}
+#view-segments .seg-geometry-view figcaption b {display:block;font-size:15px}
+#view-segments .seg-geometry-view figcaption span {font-size:12px;color:var(--ink-muted,#64748b)}
+#view-segments .seg-geometry-view img {display:block;width:100%;height:auto}
+#view-segments .seg-geometry-note {font-size:12px;line-height:1.7;margin-top:12px}
+@media(max-width:1449px){#view-segments .seg-geometry-layout{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:"front side" "table table";align-items:start;gap:16px}#view-segments .seg-geometry-view{max-width:280px}}
+@media(max-width:620px){#view-segments .seg-geometry-layout{grid-template-columns:minmax(0,1fr);grid-template-areas:"front" "table" "side"}#view-segments .seg-geometry-view{max-width:260px}}
+@media(max-width:1100px){
+  #view-segments #seg_partition_detail {padding-right:0;padding-bottom:22px}
+  #view-segments #seg_region_details {border-left:0;border-top:1px solid var(--line,#dbe3ee);padding-left:0;padding-top:22px}
+}

@@ -1,0 +1,166 @@
+{
+  "checks": [
+    {
+      "id": "default-cold-complete",
+      "firstSegmentMs": 609,
+      "completeMs": 1344,
+      "passed": true
+    },
+    {
+      "id": "thermal-input-hot-p95",
+      "samples": [
+        13.299999997019768,
+        13.600000001490116,
+        12,
+        12.400000005960464,
+        12,
+        11.5,
+        11.699999995529652,
+        12.699999995529652,
+        12.799999997019768,
+        12,
+        13.100000001490116,
+        12.399999998509884,
+        12,
+        12.300000004470348,
+        11.799999997019768,
+        13.5,
+        12.100000001490116,
+        11.299999997019768,
+        11.5,
+        11.700000002980232
+      ],
+      "p95Ms": 13.5,
+      "passed": true
+    },
+    {
+      "id": "thermal-keeps-raw-VF",
+      "passed": true
+    },
+    {
+      "id": "window-position-size-hot-p95",
+      "initialSweep": [
+        {
+          "ms": 77.10000000149012,
+          "reused": true
+        },
+        {
+          "ms": 93.10000000149012,
+          "reused": true
+        },
+        {
+          "ms": 89.5,
+          "reused": true
+        },
+        {
+          "ms": 92.5,
+          "reused": true
+        },
+        {
+          "ms": 88.40000000596046,
+          "reused": true
+        },
+        {
+          "ms": 68.5,
+          "reused": true
+        },
+        {
+          "ms": 77.70000000298023,
+          "reused": true
+        },
+        {
+          "ms": 97.90000000596046,
+          "reused": true
+        }
+      ],
+      "samples": [
+        {
+          "ms": 69.79999999701977,
+          "reused": true
+        },
+        {
+          "ms": 68.70000000298023,
+          "reused": true
+        },
+        {
+          "ms": 86.90000000596046,
+          "reused": true
+        },
+        {
+          "ms": 89.70000000298023,
+          "reused": true
+        },
+        {
+          "ms": 70.39999999850988,
+          "reused": true
+        },
+        {
+          "ms": 86.89999999850988,
+          "reused": true
+        },
+        {
+          "ms": 96.5,
+          "reused": true
+        },
+        {
+          "ms": 68.29999999701977,
+          "reused": true
+        }
+      ],
+      "p95Ms": 96.5,
+      "passed": true
+    },
+    {
+      "id": "cancel-unfinished",
+      "ms": 0.3999999985098839,
+      "status": "计算已取消。",
+      "running": false,
+      "passed": true
+    },
+    {
+      "id": "restart-rejects-stale-results",
+      "passed": true
+    },
+    {
+      "id": "unfinished-position-input",
+      "passed": true
+    },
+    {
+      "id": "body-crossing-wall-error",
+      "passed": true
+    },
+    {
+      "id": "complete-export",
+      "passed": true
+    },
+    {
+      "id": "single-method-and-folded-details",
+      "passed": true
+    },
+    {
+      "id": "return-to-analysis-cache",
+      "elapsedMs": 13.699999995529652,
+      "passed": true
+    },
+    {
+      "id": "file-protocol-fallback",
+      "completeMs": 857,
+      "passed": true
+    },
+    {
+      "id": "worker-load-fault-fallback",
+      "passed": true
+    },
+    {
+      "id": "component-missing-terminal-error",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "engineVersion": "2.4.0",
+  "floorResponseVersion": "floor-response-1.1.0",
+  "browser": "154.0.4258.62",
+  "generatedAt": "2026-10-09T16:18:19.424Z",
+  "timingScope": "after DOM/content dependency load; real input event -> status/table DOM refresh; final run with numerical offline workers finished"
+}

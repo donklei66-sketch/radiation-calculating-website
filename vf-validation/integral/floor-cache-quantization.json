@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "geometryHash": "sha256:3C06964EABFEEC8BE42682588A5C5A76B2F5C1D38F23BD937A88AEE15788D317",
+  "encoding": "positive Float32 cell masses; Float64 cumulative reconstruction; exact reflection for right limbs",
+  "maximumAbsoluteMassError": 1.0380572299963786e-8,
+  "checks": [
+    {
+      "index": 0,
+      "side": "low",
+      "absoluteMassError": 5.396927174474864e-9,
+      "passed": true
+    },
+    {
+      "index": 0,
+      "side": "high",
+      "absoluteMassError": 5.384282121113078e-9,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "side": "low",
+      "absoluteMassError": 6.232041683762427e-9,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "side": "high",
+      "absoluteMassError": 6.221710344906937e-9,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "side": "low",
+      "absoluteMassError": 7.048563190913459e-9,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "side": "high",
+      "absoluteMassError": 7.103825273816957e-9,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "side": "low",
+      "absoluteMassError": 6.342278483054938e-9,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "side": "high",
+      "absoluteMassError": 6.353741598418855e-9,
+      "passed": true
+    },
+    {
+      "index": 4,
+      "side": "low",
+      "absoluteMassError": 5.6713009789541594e-9,
+      "passed": true
+    },
+    {
+      "index": 4,
+      "side": "high",
+      "absoluteMassError": 5.69704874655077e-9,
+      "passed": true
+    },
+    {
+      "index": 6,
+      "side": "low",
+      "absoluteMassError": 6.585700388390952e-9,
+      "passed": true
+    },
+    {
+      "index": 6,
+      "side": "high",
+      "absoluteMassError": 6.5273859912525635e-9,
+      "passed": true
+    },
+    {
+      "index": 8,
+      "side": "low",
+      "absoluteMassError": 9.242114888642158e-9,
+      "passed": true
+    },
+    {
+      "index": 8,
+      "side": "high",
+      "absoluteMassError": 9.246147372340271e-9,
+      "passed": true
+    },
+    {
+      "index": 10,
+      "side": "low",
+      "absoluteMassError": 6.72996947291292e-9,
+      "passed": true
+    },
+    {
+      "index": 10,
+      "side": "high",
+      "absoluteMassError": 6.746100940730984e-9,
+      "passed": true
+    },
+    {
+      "index": 12,
+      "side": "low",
+      "absoluteMassError": 8.701279939303438e-9,
+      "passed": true
+    },
+    {
+      "index": 12,
+      "side": "high",
+      "absoluteMassError": 8.720438252964264e-9,
+      "passed": true
+    },
+    {
+      "index": 14,
+      "side": "low",
+      "absoluteMassError": 1.0380572299963786e-8,
+      "passed": true
+    },
+    {
+      "index": 14,
+      "side": "high",
+      "absoluteMassError": 1.0373817430103646e-8,
+      "passed": true
+    }
+  ],
+  "files": [
+    {
+      "file": "10701-floor-cache-0.js",
+      "bytes": 2139836
+    },
+    {
+      "file": "10701-floor-cache-1.js",
+      "bytes": 7250546
+    },
+    {
+      "file": "10701-floor-cache-2.js",
+      "bytes": 7250543
+    },
+    {
+      "file": "10701-floor-cache-3.js",
+      "bytes": 7261251
+    },
+    {
+      "file": "10701-floor-cache-4.js",
+      "bytes": 7269124
+    },
+    {
+      "file": "10701-floor-cache-6.js",
+      "bytes": 7257170
+    },
+    {
+      "file": "10701-floor-cache-8.js",
+      "bytes": 11775097
+    },
+    {
+      "file": "10701-floor-cache-10.js",
+      "bytes": 7260608
+    },
+    {
+      "file": "10701-floor-cache-12.js",
+      "bytes": 9698076
+    },
+    {
+      "file": "10701-floor-cache-14.js",
+      "bytes": 9935570
+    }
+  ]
+}

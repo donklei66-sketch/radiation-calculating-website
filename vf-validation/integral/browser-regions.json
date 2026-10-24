@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "id": "ceiling-local-controls-share-scene",
+      "passed": true
+    },
+    {
+      "id": "local-temperature-keeps-VF-and-lowers-MRT",
+      "passed": true
+    },
+    {
+      "id": "remove-panel-restores-base-temperature",
+      "passed": true
+    },
+    {
+      "id": "whole-ceiling-cover-restores-full-face",
+      "passed": true
+    },
+    {
+      "id": "floor-local-controls-share-scene",
+      "passed": true
+    },
+    {
+      "id": "warm-floor-keeps-VF-and-raises-MRT",
+      "passed": true
+    },
+    {
+      "id": "UI-uniform-temperature-and-shared-M1-position",
+      "passed": true
+    },
+    {
+      "id": "UI-zero-epsilon-keeps-VF-and-no-MRT",
+      "passed": true
+    },
+    {
+      "id": "legacy-wall-panel-explicit-error",
+      "passed": true
+    },
+    {
+      "id": "legacy-wall-panel-user-repair",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "engineVersion": "2.4.0",
+  "floorResponseVersion": "floor-response-1.1.0",
+  "browser": "154.0.4258.62",
+  "generatedAt": "2026-10-09T16:20:08.094Z"
+}

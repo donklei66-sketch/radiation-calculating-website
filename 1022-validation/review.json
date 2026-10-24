@@ -1,0 +1,22 @@
+{
+  "status": "ready_after_one_fix_pass",
+  "reviewScope": "1022 floor-cooling exposure card selection and conditional 3D planes",
+  "reviewer": "fresh-context read-only review_1022_planes",
+  "critical": [],
+  "importantFound": ["Display-only publication overwrote a pending height draft after a duration-card click."],
+  "fixed": [
+    {
+      "scope": "horizontal-publish.js",
+      "change": "Preserve height inputs while the shared draft controller is dirty.",
+      "verification": "Real Chrome regression failed with a blank draft replaced by 0.60; after the guard blank and 0.9 drafts are preserved with no temperatures solved. Full suite 102/102 passed."
+    }
+  ],
+  "remainingImportant": [],
+  "deferredMinors": [],
+  "nodeChecks": {
+    "passed": 102,
+    "failed": 0
+  },
+  "declinedToJudge": ["Fresh ZIP and standalone opening were pending during code review; executor completes them separately."],
+  "priorReview": "1022-source/revisions/20261023-plane-display/review-before-plane.json"
+}

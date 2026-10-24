@@ -1,0 +1,4 @@
+'use strict';
+importScripts('vf-model-spec.js','vf-rebuild-core.js','101902-surface-density.js','101902-integral-core.js','1020-direct-solar.js','1020-solar-thermal.js','1020-solar-runner.js','1020-solar-view.js');
+const solarRunner=VF1020SolarRunner.createRunner();let latest=0;
+onmessage=async event=>{const m=event.data;if(m.type==='cancel'){latest++;return;}if(m.type!=='run')return;const token=++latest;try{const result=await solarRunner.run(m.scene,m.solar,m.options||{},{cancelled:()=>token!==latest,progress:p=>{if(token===latest)postMessage({type:'progress',requestId:m.requestId,...p});}});if(token===latest){result.visual=VF1020SolarView.makeVisual(m.scene,m.solar);postMessage({type:'result',requestId:m.requestId,...result,stats:solarRunner.stats()});}}catch(error){if(token===latest)postMessage({type:'error',requestId:m.requestId,message:error.message});}};

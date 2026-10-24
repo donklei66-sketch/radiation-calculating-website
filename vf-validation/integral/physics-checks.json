@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "id": "all-96-grids-nine-rectangle-positions-crossline-thinstrips-zero-monotonic-additivity",
+      "passed": true,
+      "maximumAlgebraError": 5.204170427930421e-17,
+      "minimum": 0
+    },
+    {
+      "id": "all-segment-and-whole-uniform-MRT",
+      "passed": true
+    },
+    {
+      "id": "temperature-and-emissivity-independent-VF-and-zero-weight",
+      "passed": true
+    },
+    {
+      "id": "horizontal-board-split-and-entire-face",
+      "passed": true
+    },
+    {
+      "id": "invalid-geometry-regions-temperature-emissivity-rejected",
+      "passed": true
+    },
+    {
+      "id": "isolated-infinite-plane-l_forearm",
+      "passed": true,
+      "expected": 0.5,
+      "coarse": 0.5000494809003967,
+      "fine": 0.5000124200339534,
+      "error": 0.000012420033953408627
+    },
+    {
+      "id": "isolated-infinite-plane-chest",
+      "passed": true,
+      "expected": 0.8183098861837907,
+      "coarse": 0.818357520523248,
+      "fine": 0.8183218484346507,
+      "error": 0.000011962250859975931
+    },
+    {
+      "id": "isolated-infinite-plane-back",
+      "passed": true,
+      "expected": 0.1816901138162093,
+      "coarse": 0.18174143990146652,
+      "fine": 0.1817029915465153,
+      "error": 0.000012877730306004587
+    },
+    {
+      "id": "isolated-infinite-plane-head",
+      "passed": true,
+      "expected": 0.5,
+      "coarse": 0.5000484608357502,
+      "fine": 0.5000121637868753,
+      "error": 0.000012163786875296623
+    },
+    {
+      "id": "complete-geometry-scale-invariance",
+      "passed": true,
+      "maximumDensityError": 0
+    }
+  ],
+  "passed": true,
+  "engineVersion": "2.4.0",
+  "geometryHash": "sha256:3C06964EABFEEC8BE42682588A5C5A76B2F5C1D38F23BD937A88AEE15788D317"
+}

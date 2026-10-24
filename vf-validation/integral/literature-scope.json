@@ -1,0 +1,38 @@
+{
+  "geometryHash": "sha256:3C06964EABFEEC8BE42682588A5C5A76B2F5C1D38F23BD937A88AEE15788D317",
+  "evidenceEngine": "0.5.0 reference rays on the same frozen geometry; new density solver independently checked separately",
+  "fanger": {
+    "count": 18,
+    "mae": 0.0016463403244988207,
+    "rmse": 0.0019650761074017074,
+    "maxAbsolute": 0.003922108513596326,
+    "fractionWithinPoint01": 1,
+    "medianRelativeMajor": 0.02276497715611983
+  },
+  "kubahaNonfloor": {
+    "count": 75,
+    "mae": 0.003443784258553883,
+    "rmse": 0.004325157998299577,
+    "maxAbsolute": 0.010501598324095085,
+    "fractionWithinPoint01": 0.9733333333333334,
+    "medianRelativeMajor": 0.07512783587256999
+  },
+  "kubahaFloorDiagnostic": {
+    "count": 25,
+    "mae": 0.008718130540844873,
+    "rmse": 0.011011566322395663,
+    "maxAbsolute": 0.0251469934117505,
+    "fractionWithinPoint01": 0.68,
+    "medianRelativeMajor": 0.023394120639945764
+  },
+  "kubahaAllDiagnostic": {
+    "count": 100,
+    "mae": 0.004762370829126631,
+    "rmse": 0.006659120963071679,
+    "maxAbsolute": 0.0251469934117505,
+    "fractionWithinPoint01": 0.9,
+    "medianRelativeMajor": 0.07335700466705192
+  },
+  "scope": "Fanger 18 orientation-average points; Kubaha 75 non-floor trend points. All 25 floor points retained as diagnostic because the literature adapter raises the entire body 0.4 m and changes foot contact. No unpublished local CFD replication claimed.",
+  "passed": true
+}

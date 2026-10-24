@@ -1,0 +1,829 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "id": "triangle-refinement-head",
+      "rows": [
+        {
+          "id": "face:west",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "face:east",
+          "difference": 0.0000024999999999990308,
+          "pairedHalfWidth95": 0.000003870639828059413,
+          "conservative": 0.000006370639828058444
+        },
+        {
+          "id": "face:south",
+          "difference": 0.0000024999999999990308,
+          "pairedHalfWidth95": 0.000003870639828059414,
+          "conservative": 0.000006370639828058445
+        },
+        {
+          "id": "face:north",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "face:floor",
+          "difference": 0.000020000000000000052,
+          "pairedHalfWidth95": 0.000006320728371229676,
+          "conservative": 0.00002632072837122973
+        },
+        {
+          "id": "face:ceiling",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "body",
+          "difference": 0.000025000000000004186,
+          "pairedHalfWidth95": 0.000007741279656118828,
+          "conservative": 0.00003274127965612301
+        },
+        {
+          "id": "base:west",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:east",
+          "difference": 0.0000024999999999990308,
+          "pairedHalfWidth95": 0.000003870639828059413,
+          "conservative": 0.000006370639828058444
+        },
+        {
+          "id": "base:south",
+          "difference": 0.0000024999999999990308,
+          "pairedHalfWidth95": 0.000003870639828059414,
+          "conservative": 0.000006370639828058445
+        },
+        {
+          "id": "base:north",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:floor",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.0000043275068859814765,
+          "conservative": 0.000008077506885981757
+        },
+        {
+          "id": "base:ceiling",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "win",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "cool",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "warm",
+          "difference": 0.00001624999999999977,
+          "pairedHalfWidth95": 0.000006221183120568169,
+          "conservative": 0.00002247118312056794
+        }
+      ],
+      "relativeAreaDifference": 0,
+      "passed": true
+    },
+    {
+      "id": "triangle-refinement-chest",
+      "rows": [
+        {
+          "id": "face:west",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.000006221183120567194,
+          "conservative": 0.000009971183120567475
+        },
+        {
+          "id": "face:east",
+          "difference": 0.0000024999999999990308,
+          "pairedHalfWidth95": 0.000003870639828059414,
+          "conservative": 0.000006370639828058445
+        },
+        {
+          "id": "face:south",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "face:north",
+          "difference": 0.0000012500000000012501,
+          "pairedHalfWidth95": 0.0000029562500000029564,
+          "conservative": 0.000004206250000004207
+        },
+        {
+          "id": "face:floor",
+          "difference": 0.0000037500000000037503,
+          "pairedHalfWidth95": 0.00000432750688598548,
+          "conservative": 0.00000807750688598923
+        },
+        {
+          "id": "face:ceiling",
+          "difference": 0.0000012500000000012501,
+          "pairedHalfWidth95": 0.0000029562500000029564,
+          "conservative": 0.000004206250000004207
+        },
+        {
+          "id": "body",
+          "difference": 0.000012500000000002093,
+          "pairedHalfWidth95": 0.000007411710991492701,
+          "conservative": 0.000019911710991494794
+        },
+        {
+          "id": "base:west",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.000006221183120567194,
+          "conservative": 0.000009971183120567475
+        },
+        {
+          "id": "base:east",
+          "difference": 0.0000024999999999990308,
+          "pairedHalfWidth95": 0.000003870639828059414,
+          "conservative": 0.000006370639828058445
+        },
+        {
+          "id": "base:south",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:north",
+          "difference": 0.0000012500000000012501,
+          "pairedHalfWidth95": 0.0000029562500000029564,
+          "conservative": 0.000004206250000004207
+        },
+        {
+          "id": "base:floor",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:ceiling",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "win",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "cool",
+          "difference": 0.000001249999999999949,
+          "pairedHalfWidth95": 0.0000029562499999998796,
+          "conservative": 0.000004206249999999829
+        },
+        {
+          "id": "warm",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.0000043275068859814765,
+          "conservative": 0.000008077506885981757
+        }
+      ],
+      "relativeAreaDifference": 0,
+      "passed": true
+    },
+    {
+      "id": "triangle-refinement-l_forearm",
+      "rows": [
+        {
+          "id": "face:west",
+          "difference": 0.0000012499999999977807,
+          "pairedHalfWidth95": 0.000002956249999994752,
+          "conservative": 0.000004206249999992533
+        },
+        {
+          "id": "face:east",
+          "difference": 0.000004999999999999905,
+          "pairedHalfWidth95": 0.0000044694298933340264,
+          "conservative": 0.00000946942989333393
+        },
+        {
+          "id": "face:south",
+          "difference": 0.0000037500000000037503,
+          "pairedHalfWidth95": 0.00000432750688598548,
+          "conservative": 0.00000807750688598923
+        },
+        {
+          "id": "face:north",
+          "difference": 0.000008749999999994873,
+          "pairedHalfWidth95": 0.000008286544803277722,
+          "conservative": 0.000017036544803272595
+        },
+        {
+          "id": "face:floor",
+          "difference": 0.000014999999999990715,
+          "pairedHalfWidth95": 0.00000999394906216222,
+          "conservative": 0.000024993949062152935
+        },
+        {
+          "id": "face:ceiling",
+          "difference": 0.000002499999999999898,
+          "pairedHalfWidth95": 0.000003870639828060757,
+          "conservative": 0.000006370639828060655
+        },
+        {
+          "id": "body",
+          "difference": 0.00003624999999999462,
+          "pairedHalfWidth95": 0.0000108906535022167,
+          "conservative": 0.00004714065350221132
+        },
+        {
+          "id": "base:west",
+          "difference": 0.0000012499999999977807,
+          "pairedHalfWidth95": 0.000002956249999994752,
+          "conservative": 0.000004206249999992533
+        },
+        {
+          "id": "base:east",
+          "difference": 0.000004999999999999905,
+          "pairedHalfWidth95": 0.0000044694298933340264,
+          "conservative": 0.00000946942989333393
+        },
+        {
+          "id": "base:south",
+          "difference": 0.0000037500000000037503,
+          "pairedHalfWidth95": 0.00000432750688598548,
+          "conservative": 0.00000807750688598923
+        },
+        {
+          "id": "base:north",
+          "difference": 0.000005000000000003266,
+          "pairedHalfWidth95": 0.0000063207283712318685,
+          "conservative": 0.000011320728371235135
+        },
+        {
+          "id": "base:floor",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:ceiling",
+          "difference": 0.000001249999999999949,
+          "pairedHalfWidth95": 0.0000029562499999998796,
+          "conservative": 0.000004206249999999829
+        },
+        {
+          "id": "win",
+          "difference": 0.0000037499999999994135,
+          "pairedHalfWidth95": 0.0000062211831205676125,
+          "conservative": 0.000009971183120567026
+        },
+        {
+          "id": "cool",
+          "difference": 0.000001249999999999949,
+          "pairedHalfWidth95": 0.0000029562499999998796,
+          "conservative": 0.000004206249999999829
+        },
+        {
+          "id": "warm",
+          "difference": 0.000014999999999997654,
+          "pairedHalfWidth95": 0.000009993949062164995,
+          "conservative": 0.00002499394906216265
+        }
+      ],
+      "relativeAreaDifference": 0,
+      "passed": true
+    },
+    {
+      "id": "triangle-refinement-l_thigh",
+      "rows": [
+        {
+          "id": "face:west",
+          "difference": 0.0000012500000000012501,
+          "pairedHalfWidth95": 0.000002956250000002957,
+          "conservative": 0.000004206250000004207
+        },
+        {
+          "id": "face:east",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.0000043275068859814765,
+          "conservative": 0.000008077506885981757
+        },
+        {
+          "id": "face:south",
+          "difference": 0.000002499999999999898,
+          "pairedHalfWidth95": 0.000003870639828060757,
+          "conservative": 0.000006370639828060655
+        },
+        {
+          "id": "face:north",
+          "difference": 0.000006249999999999312,
+          "pairedHalfWidth95": 0.000007660216902349198,
+          "conservative": 0.00001391021690234851
+        },
+        {
+          "id": "face:floor",
+          "difference": 0.000016249999999998904,
+          "pairedHalfWidth95": 0.000007660216902348744,
+          "conservative": 0.00002391021690234765
+        },
+        {
+          "id": "face:ceiling",
+          "difference": 0.000004999999999999796,
+          "pairedHalfWidth95": 0.0000063207283712274826,
+          "conservative": 0.000011320728371227278
+        },
+        {
+          "id": "body",
+          "difference": 0.00003500000000000725,
+          "pairedHalfWidth95": 0.000010947822679801114,
+          "conservative": 0.00004594782267980836
+        },
+        {
+          "id": "base:west",
+          "difference": 0.0000012500000000012501,
+          "pairedHalfWidth95": 0.000002956250000002957,
+          "conservative": 0.000004206250000004207
+        },
+        {
+          "id": "base:east",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.0000043275068859814765,
+          "conservative": 0.000008077506885981757
+        },
+        {
+          "id": "base:south",
+          "difference": 0.000002499999999999898,
+          "pairedHalfWidth95": 0.000003870639828060757,
+          "conservative": 0.000006370639828060655
+        },
+        {
+          "id": "base:north",
+          "difference": 0.000006249999999997577,
+          "pairedHalfWidth95": 0.000007660216902348519,
+          "conservative": 0.000013910216902346096
+        },
+        {
+          "id": "base:floor",
+          "difference": 0.000001249999999999949,
+          "pairedHalfWidth95": 0.0000029562499999998796,
+          "conservative": 0.000004206249999999829
+        },
+        {
+          "id": "base:ceiling",
+          "difference": 0.0000012500000000003827,
+          "pairedHalfWidth95": 0.0000029562500000009053,
+          "conservative": 0.000004206250000001288
+        },
+        {
+          "id": "win",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "cool",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.000006221183120568308,
+          "conservative": 0.000009971183120568588
+        },
+        {
+          "id": "warm",
+          "difference": 0.000015000000000001124,
+          "pairedHalfWidth95": 0.00000774127965612241,
+          "conservative": 0.000022741279656123533
+        }
+      ],
+      "relativeAreaDifference": 0,
+      "passed": true
+    },
+    {
+      "id": "triangle-refinement-l_leg",
+      "rows": [
+        {
+          "id": "face:west",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "face:east",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.000006221183120568308,
+          "conservative": 0.000009971183120568588
+        },
+        {
+          "id": "face:south",
+          "difference": 0.0000012499999999995154,
+          "pairedHalfWidth95": 0.0000029562499999988534,
+          "conservative": 0.000004206249999998369
+        },
+        {
+          "id": "face:north",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.0000043275068859814765,
+          "conservative": 0.000008077506885981757
+        },
+        {
+          "id": "face:floor",
+          "difference": 0.0000012500000000012501,
+          "pairedHalfWidth95": 0.000002956250000002957,
+          "conservative": 0.000004206250000004207
+        },
+        {
+          "id": "face:ceiling",
+          "difference": 0.000003749999999999847,
+          "pairedHalfWidth95": 0.000004327506885980976,
+          "conservative": 0.000008077506885980823
+        },
+        {
+          "id": "body",
+          "difference": 0.000013750000000003343,
+          "pairedHalfWidth95": 0.000007660216902352364,
+          "conservative": 0.00002141021690235571
+        },
+        {
+          "id": "base:west",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:east",
+          "difference": 0.000003750000000000281,
+          "pairedHalfWidth95": 0.000006221183120568308,
+          "conservative": 0.000009971183120568588
+        },
+        {
+          "id": "base:south",
+          "difference": 0.0000012499999999995154,
+          "pairedHalfWidth95": 0.0000029562499999988534,
+          "conservative": 0.000004206249999998369
+        },
+        {
+          "id": "base:north",
+          "difference": 0.0000012499999999977807,
+          "pairedHalfWidth95": 0.000002956249999994752,
+          "conservative": 0.000004206249999992533
+        },
+        {
+          "id": "base:floor",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:ceiling",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "win",
+          "difference": 0.000002499999999999898,
+          "pairedHalfWidth95": 0.000003870639828060757,
+          "conservative": 0.000006370639828060655
+        },
+        {
+          "id": "cool",
+          "difference": 0.0000037499999999999556,
+          "pairedHalfWidth95": 0.000004327506885981101,
+          "conservative": 0.000008077506885981057
+        },
+        {
+          "id": "warm",
+          "difference": 0.0000012499999999943112,
+          "pairedHalfWidth95": 0.0000029562499999865464,
+          "conservative": 0.000004206249999980858
+        }
+      ],
+      "relativeAreaDifference": 0.0000012499531263816213,
+      "passed": true
+    },
+    {
+      "id": "triangle-refinement-l_foot",
+      "rows": [
+        {
+          "id": "face:west",
+          "difference": 0.0000025000000000007655,
+          "pairedHalfWidth95": 0.0000038706398280621,
+          "conservative": 0.000006370639828062866
+        },
+        {
+          "id": "face:east",
+          "difference": 0.00001124999999999824,
+          "pairedHalfWidth95": 0.000011339939836305829,
+          "conservative": 0.000022589939836304067
+        },
+        {
+          "id": "face:south",
+          "difference": 0.000002499999999999898,
+          "pairedHalfWidth95": 0.000003870639828060757,
+          "conservative": 0.000006370639828060655
+        },
+        {
+          "id": "face:north",
+          "difference": 0.000008750000000000077,
+          "pairedHalfWidth95": 0.000005358658193423141,
+          "conservative": 0.000014108658193423217
+        },
+        {
+          "id": "face:floor",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "face:ceiling",
+          "difference": 0.000006249999999999745,
+          "pairedHalfWidth95": 0.00000622118312056796,
+          "conservative": 0.000012471183120567705
+        },
+        {
+          "id": "body",
+          "difference": 0.00003125000000000003,
+          "pairedHalfWidth95": 0.000016982363323838704,
+          "conservative": 0.00004823236332383873
+        },
+        {
+          "id": "base:west",
+          "difference": 0.0000025000000000007655,
+          "pairedHalfWidth95": 0.0000038706398280621,
+          "conservative": 0.000006370639828062866
+        },
+        {
+          "id": "base:east",
+          "difference": 0.00001124999999999824,
+          "pairedHalfWidth95": 0.000011339939836305829,
+          "conservative": 0.000022589939836304067
+        },
+        {
+          "id": "base:south",
+          "difference": 0.000002499999999999898,
+          "pairedHalfWidth95": 0.000003870639828060757,
+          "conservative": 0.000006370639828060655
+        },
+        {
+          "id": "base:north",
+          "difference": 0.000007499999999998827,
+          "pairedHalfWidth95": 0.0000038706398280603095,
+          "conservative": 0.000011370639828059137
+        },
+        {
+          "id": "base:floor",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:ceiling",
+          "difference": 0.000001250000000000166,
+          "pairedHalfWidth95": 0.000002956250000000392,
+          "conservative": 0.000004206250000000558
+        },
+        {
+          "id": "win",
+          "difference": 0.000001249999999999949,
+          "pairedHalfWidth95": 0.0000029562499999998796,
+          "conservative": 0.000004206249999999829
+        },
+        {
+          "id": "cool",
+          "difference": 0.000005000000000000013,
+          "pairedHalfWidth95": 0.0000063207283712289894,
+          "conservative": 0.000011320728371229003
+        },
+        {
+          "id": "warm",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        }
+      ],
+      "relativeAreaDifference": 0,
+      "passed": true
+    },
+    {
+      "id": "foot-start-offset-1e-10",
+      "rows": [
+        {
+          "id": "face:west",
+          "difference": 0.000005000000000001531,
+          "pairedHalfWidth95": 0.0000077412796561242,
+          "conservative": 0.000012741279656125731
+        },
+        {
+          "id": "face:east",
+          "difference": 0.000006249999999998444,
+          "pairedHalfWidth95": 0.000006221183120567335,
+          "conservative": 0.000012471183120565779
+        },
+        {
+          "id": "face:south",
+          "difference": 0.000008750000000000077,
+          "pairedHalfWidth95": 0.000005358658193421847,
+          "conservative": 0.000014108658193421924
+        },
+        {
+          "id": "face:north",
+          "difference": 0.000007500000000000562,
+          "pairedHalfWidth95": 0.000008655013771962953,
+          "conservative": 0.000016155013771963513
+        },
+        {
+          "id": "face:floor",
+          "difference": 0.000027500000000020564,
+          "pairedHalfWidth95": 0.000003870639828061205,
+          "conservative": 0.00003137063982808177
+        },
+        {
+          "id": "face:ceiling",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "body",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:west",
+          "difference": 0.000005000000000001531,
+          "pairedHalfWidth95": 0.0000077412796561242,
+          "conservative": 0.000012741279656125731
+        },
+        {
+          "id": "base:east",
+          "difference": 0.000006249999999998444,
+          "pairedHalfWidth95": 0.000006221183120567335,
+          "conservative": 0.000012471183120565779
+        },
+        {
+          "id": "base:south",
+          "difference": 0.000008750000000000077,
+          "pairedHalfWidth95": 0.000005358658193421847,
+          "conservative": 0.000014108658193421924
+        },
+        {
+          "id": "base:north",
+          "difference": 0.000007500000000000562,
+          "pairedHalfWidth95": 0.000008655013771962953,
+          "conservative": 0.000016155013771963513
+        },
+        {
+          "id": "base:floor",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:ceiling",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "win",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "cool",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "warm",
+          "difference": 0.000027500000000006686,
+          "pairedHalfWidth95": 0.000003870639828054043,
+          "conservative": 0.00003137063982806073
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "foot-start-offset-1e-9",
+      "rows": [
+        {
+          "id": "face:west",
+          "difference": 0.000014999999999999389,
+          "pairedHalfWidth95": 0.000006320728371229676,
+          "conservative": 0.000021320728371229066
+        },
+        {
+          "id": "face:east",
+          "difference": 0.000024999999999997247,
+          "pairedHalfWidth95": 0.00000632072837122858,
+          "conservative": 0.000031320728371225826
+        },
+        {
+          "id": "face:south",
+          "difference": 0.000016250000000000205,
+          "pairedHalfWidth95": 0.000006221183120568657,
+          "conservative": 0.00002247118312056886
+        },
+        {
+          "id": "face:north",
+          "difference": 0.000026250000000001966,
+          "pairedHalfWidth95": 0.00000766021690235146,
+          "conservative": 0.000033910216902353424
+        },
+        {
+          "id": "face:floor",
+          "difference": 0.00008250000000001312,
+          "pairedHalfWidth95": 0.00000591250000001998,
+          "conservative": 0.0000884125000000331
+        },
+        {
+          "id": "face:ceiling",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "body",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:west",
+          "difference": 0.000014999999999999389,
+          "pairedHalfWidth95": 0.000006320728371229676,
+          "conservative": 0.000021320728371229066
+        },
+        {
+          "id": "base:east",
+          "difference": 0.000024999999999997247,
+          "pairedHalfWidth95": 0.00000632072837122858,
+          "conservative": 0.000031320728371225826
+        },
+        {
+          "id": "base:south",
+          "difference": 0.000016250000000000205,
+          "pairedHalfWidth95": 0.000006221183120568657,
+          "conservative": 0.00002247118312056886
+        },
+        {
+          "id": "base:north",
+          "difference": 0.000026249999999998497,
+          "pairedHalfWidth95": 0.00000766021690235191,
+          "conservative": 0.00003391021690235041
+        },
+        {
+          "id": "base:floor",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "base:ceiling",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "win",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "cool",
+          "difference": 0,
+          "pairedHalfWidth95": 0,
+          "conservative": 0
+        },
+        {
+          "id": "warm",
+          "difference": 0.0000824999999999923,
+          "pairedHalfWidth95": 0.000005912500000008257,
+          "conservative": 0.00008841250000000056
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "method": "paired randomized batches; triangle blockers 128 vs 256; source offset 0, 1e-10, 1e-9 m"
+}

@@ -1,0 +1,4620 @@
+{
+  "encoding": "positive Float32 cell masses, Float64 reconstructed cumulative sums",
+  "groups": [
+    "cube",
+    "wide",
+    "offset"
+  ],
+  "passed": true,
+  "maxAbsoluteMassError": 1.0577075354223766e-8,
+  "checks": [
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 4.786271482338893e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 4.224812930666975e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.0445078908371027e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.109644549726547e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.3390657922038414e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.30598618946681e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 3.3390657907198397e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 3.305986189161878e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.348732960115015e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.2982938443437086e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.348732961341519e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "head",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.298293844536832e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.3769587285578198e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.4283417702746007e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.5775518582652784e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.6072802540726444e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.250440891240059e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.17942822760544e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 3.2504408901754874e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 3.179428227259426e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.9417414517351036e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.8029752468966543e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 8.389208920355954e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "chest",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 8.326424596286334e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.3769540439827598e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.4283434748376732e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 2.422016755890189e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 2.4582612883383533e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.250445110260678e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.1794355094574535e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 3.250445110019201e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 3.179435509324323e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 8.58621504245486e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 8.658665787029875e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.9417414597533292e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "back",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.8029062393975685e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 7.57842614616022e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 7.680854743180932e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 3.088856252013255e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 3.131034509096111e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 2.8121402380041786e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 2.8467218126211412e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.812140238273535e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.846721812014242e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 4.277065301435551e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 4.043207835376095e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.177965659220504e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "abdomen",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.218549149812183e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.324054666401312e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.3149605310586668e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.87406258239903e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.905725397801139e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 5.289614262033446e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 5.054829139408603e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.3228489799702908e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.4633736224899486e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 4.020481316299417e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.9581478413122905e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.923533173334787e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_upperarm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.795725768354142e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.3240547791860369e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.3149610526533647e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.8740639986325593e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.905735548364933e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.3228489786600367e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.4633736221948436e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 5.289614264486454e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 5.054829138483643e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 4.0204731385334305e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.9581580637565195e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.92353501610065e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_upperarm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.795724677837141e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 6.126485995320987e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 6.313592503021588e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 3.5896263888358686e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 3.519011309181903e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 4.437112439304597e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 4.565455616282191e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.2919361166019884e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.2438194482117453e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.70761408525e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.577242960852666e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.9037303319405495e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_forearm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.742667197592438e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 6.126477598963925e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 6.313603906807527e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 3.5896275519213393e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 3.519003629295444e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.291936112598699e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.2438194488398732e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 4.437112438931902e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 4.5654556175730695e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.7076102338792804e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.5772470555767985e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.903741078391547e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_forearm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.7426661549695973e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 5.438221140960718e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 5.335815907314353e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 6.658799319943877e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 6.688163996484783e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 4.070838431693708e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 4.294930294679517e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.389396950247586e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.3681474323142195e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.4166620031343675e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.3345121175244182e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.233888359314261e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_hand",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.137103972173011e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 5.438220625687978e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 5.335816137186803e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 6.658781995320651e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 6.6881548465736556e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.3893969501945736e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.3681474315350506e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 4.070838434661712e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 4.294930294848924e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.4166616206956037e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.3345118008306577e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.233892780705721e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_hand",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.1371010553115065e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.144172369857691e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.135739196317044e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 5.052205658351554e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 5.0623864833678265e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 4.004621599368577e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.9972887046276425e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.2617540574028289e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.261299502236983e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.527797544740818e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.6244324060321226e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.5886998699068628e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_thigh",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.5845105513862157e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.1441723905235447e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.1357385861456903e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 5.052215883245403e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 5.0623751405320276e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.2617540569449906e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.261299501518449e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 4.004621599371965e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 3.9972887077027956e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.5277946922992257e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.6244327086840577e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.5887014696376143e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_thigh",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.584510766148248e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.858687815805419e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.8178168407467543e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 6.5680714524682475e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 6.583776654070692e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.193959066171093e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.195703181780476e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.3250885473682798e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.28216795879367e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.3834625790981047e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.3971096063341265e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 4.9209789303685165e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_leg",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 5.153322536150094e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.8586823330860886e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.817818329099148e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 6.568089888701504e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 6.583802587710718e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.3250885474361251e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.2821679585362433e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 3.193959063914597e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 3.1957031823632345e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.3834620044772829e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.3971114368401123e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 4.920986990151284e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_leg",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 5.153335989646393e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 5.208958148703268e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 5.41956914424771e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.0577075354223766e-8,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.024925582335936e-8,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 2.215484896689836e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 2.2362486724056113e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.0636251008764939e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.071990233313831e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.291817902820293e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.309125291387948e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.5112011236624193e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "l_foot",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.4280501384560814e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 5.20896830965088e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 5.419565946409659e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.0576959961467968e-8,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.024967594656101e-8,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.0636251018654048e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.0719902329823235e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.21548490059974e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.236248670740768e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.2918173095769374e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.3091346141706053e-10,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.511196215797669e-9,
+      "passed": true
+    },
+    {
+      "id": "cube",
+      "segment": "r_foot",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.4280467167309656e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 4.866602029210274e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 4.748851800467735e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 3.594484388785907e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 3.745413856992679e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.920993423075337e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.9782964964233337e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.9209934235462874e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.9782964963216897e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 2.996527588842497e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.000671638261573e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.9965275889407526e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "head",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.000671638166705e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.315722693495973e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.2787741138338493e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 4.4793754849673e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 4.511687734295134e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.956269911278769e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.9630805960032932e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.9562699113066833e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.9630805963154017e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.4305580206618263e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.6220260382097e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 7.268466120335091e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "chest",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 7.3186418270049415e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.3157249571040685e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.2787738348977015e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 5.598724276505638e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 5.385723397995878e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.9562706311488054e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.963079414283248e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.95627063004269e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.963079414748622e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 6.9352262265461365e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 7.276107201177693e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.4305580724713906e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "back",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.6220260368404978e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.5870197370378202e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.6679880945551752e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 5.198122949859528e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 5.295762187201157e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.6694941907314961e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.618200901706455e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.6694941919952693e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.618200901016123e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.3943346503652685e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.4604963361483125e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.1307042467668953e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "abdomen",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.1558514732421765e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.1671617141670387e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.0437437059638727e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 4.213302163609416e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 4.20769404637059e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 2.717451404246347e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 2.798344098736222e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 5.658037621992425e-11,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 5.51142306979726e-11,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.471492528493055e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.3547670441030678e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.38612667455386e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_upperarm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.4421463698697864e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.1671621815070383e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.0437443017243005e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 4.213302692102841e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 4.207694624400876e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 5.6580375822136404e-11,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 5.5114230644873447e-11,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.7174514013494943e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.7983440971573526e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.471492663002734e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.354767010879471e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.461470365217993e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_upperarm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.3861271823899225e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.3546622323792202e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.3731826865239031e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 5.391038504893681e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 5.6292774883961e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 2.552286684952889e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 2.6448367197545958e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 3.952655282409667e-11,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 3.4613151067855345e-11,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.2629794955508e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.1762413927026083e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.622830562392186e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_forearm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.6467070099920834e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.354662329005933e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.3731826356025985e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 5.39103929377457e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 5.629328741901098e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.9526552630638975e-11,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.4613151033801974e-11,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.552286681385186e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.6448367183519092e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.2629794328339394e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.176242029072109e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.6228304149404786e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_forearm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.646706706816661e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.2521612012974712e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.2505706009834958e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 8.708320702526862e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 8.496793935976224e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 2.3068166215012298e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 2.4110004872729158e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 9.758397962801028e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 9.800248243577712e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.1120023529384482e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.0257172966959703e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.0243739769658685e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_hand",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.020152897309881e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.25216173484371e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.2505708393535236e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 8.70832067746113e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 8.49681080801231e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 9.758397970814224e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 9.800248235497811e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.3068166304154045e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.41100049042049e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.112003189061611e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.0257173687598394e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.032028142396753e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_hand",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.023184191837445e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 3.5924017645408515e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 3.5933731095201343e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 6.388109517299462e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 6.318599144254259e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 2.4613422225478826e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 2.3904668689144618e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 6.832799141718254e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 6.775339730336673e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 5.746717923684133e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 5.628995228749338e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.875363050989241e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_thigh",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.9482548312426982e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 3.5924014000216917e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 3.5933733332338573e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 6.388109635311944e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 6.31949794964368e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 6.832799146328065e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 6.775339736995101e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.461342221838069e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.390466869456563e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 5.746716021512285e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 5.628991567063109e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.875363157793108e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_thigh",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.948254481658225e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.1079019443021054e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.1057400583610183e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 8.102420588825419e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 8.039749904606487e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 2.269658548316412e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 2.2415698699977833e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 9.81385931653108e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 9.712833354135825e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.643608907678074e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.6383235693894247e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.616523609189658e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_leg",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.678640304847244e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.1079020056694836e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.1057400868814283e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 8.10242028755362e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 8.039766898453612e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 9.813859325421617e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 9.712833351190268e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.269658546998429e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.2415698703298203e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.6436089788386015e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.6383234154610002e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.6165239577877614e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_leg",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.6786397462239333e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.5455761650106608e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.5332899349352003e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.032309991512243e-8,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.0230022361540749e-8,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.8543664429751386e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.8155199102849176e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 9.270763448455656e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 9.117836390661181e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 5.770819978453017e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 5.763920230325014e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.9523781444581782e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "l_foot",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.9011458176075072e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.5455758784999156e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.5332898210600165e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.0323099915772481e-8,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.0230022307561951e-8,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 9.270763389866387e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 9.11783639212443e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.854366442468613e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.8155199082876139e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 5.77081819566148e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 5.763923363216469e-10,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.952378126040294e-9,
+      "passed": true
+    },
+    {
+      "id": "wide",
+      "segment": "r_foot",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.9011455465434116e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 4.265012560409527e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 4.164575549203277e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 2.084449700872739e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.9975387374007643e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.840645836895469e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.812204664531315e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.9316627943303572e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.8529462059019828e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.1926903084451234e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.296818808572286e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.881543689208413e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "head",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.926698981624943e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.152503259939962e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.0762837908904416e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 3.3279983745516995e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 3.3530040357630607e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.9947896887772434e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.8798093723249374e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 4.641355135695643e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 4.472032516612064e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.605638091685119e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.5346599788840434e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 4.14736706999788e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "chest",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 4.154774013204639e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.1820794553700035e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.2341121974425485e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 3.0148307145571238e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 2.9994658776920714e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 8.619570640550729e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 8.545497008716582e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 7.575078858745539e-11,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 8.002107968774503e-11,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 2.697412377630587e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 2.626352291824375e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.177912987038337e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "back",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.950299205165542e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 9.358189146348858e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 9.343320246504168e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 3.894114516663229e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 3.946130892277538e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 4.222948686323395e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.91864081136136e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.2795458010027543e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.2663538897209887e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 2.643291160053866e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 2.5675021779644217e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.0338804179750657e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "abdomen",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.0525670596019086e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.4363560900773533e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.342727447188696e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 2.7771125394088424e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 2.767930255566724e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.863741119895979e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.849793768832286e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.007060968274628e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.0789839792412836e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.0312861799445803e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.267375526305403e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 5.555858820998716e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_upperarm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 5.349722462075454e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.6041720244378876e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.4874682081294453e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 3.1508853090033558e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 3.0478652968526037e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 4.092649121806732e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 4.118025277537276e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.132705870561721e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.1146258248452954e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 4.544067590827076e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 4.396747825275707e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 4.5417952126197746e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_upperarm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 4.649712660178895e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 8.757028068746371e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 8.899970389663843e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 4.250975076685987e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 4.258620279886594e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.6749040177013812e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.680397775981125e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.563755940197669e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.5363180487056759e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.9220210268596057e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.9759563277114265e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 4.879001518059013e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_forearm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 4.783573222580735e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 9.175384137529353e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.0035957886915568e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 4.572524149924518e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 4.4760070201756296e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.8662562003652915e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.809605364768256e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.7255842506653566e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.651781835629787e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 4.150696982282699e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.947911576637079e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.2420244866741134e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_forearm",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.111121317633754e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 5.806142174428335e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 5.831339986718953e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 7.45265235880552e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 7.399395300487167e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.220325435458539e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.2782311059248074e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.1775975323338586e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.062404762934451e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.2020839784034099e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.313276162797996e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 4.3117538737727946e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_hand",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 4.2356353462946885e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 6.587685677482887e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 6.563882912822267e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 7.575461399668823e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 7.623975759661892e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 3.48191571980668e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 3.421090566444704e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.1328286176777882e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.2166198877501841e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.5814488624429065e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.557941829780642e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.5411320363682331e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_hand",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.574265388952861e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.7526303971825876e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.7061120325364662e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 5.570846126097465e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 5.495272751485155e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 4.954497284784455e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 4.927980201006731e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 8.821639981132939e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 9.106095979279075e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.381591301775226e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.3435917336291209e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 4.1884913290669715e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_thigh",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 4.2992779218301155e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 2.704491555999868e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 2.6438426739587044e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 5.493461710288985e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 5.83055463202597e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 5.916532265705876e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 5.924836388709736e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 9.55720726609918e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 9.03921540081494e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.931603362696597e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.774142135166424e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.577687467050251e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_thigh",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.656020468335773e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 6.018410654501796e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 5.971445448210833e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 7.519150812770455e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 7.535037110101375e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.4175220541936693e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.4575955980044494e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.389319029005877e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.4526562836084138e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.7468473584453875e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.6803984759866776e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 3.725807462522107e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_leg",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 3.890754815894533e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 6.06836899388961e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 6.531592292527911e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 7.469566811219257e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 7.900387763247855e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 1.4857882330247752e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 1.5145767186422687e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 2.3867275920836493e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 2.397429028635285e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 3.390190743488285e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 3.4141878512839377e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.9030121796796477e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_leg",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.9190506651849177e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.0135572437222864e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.0469375367928122e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.0296137367362668e-8,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.0374877003386968e-8,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 4.109744426104482e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 4.235945411977827e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 9.947349539213364e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 9.86721141976461e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 1.4132265450225162e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 1.387490157432338e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 2.6618401026380027e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "l_foot",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 2.8992087105023453e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "ceiling",
+      "level": "low",
+      "absoluteMassError": 1.091328464331661e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "ceiling",
+      "level": "high",
+      "absoluteMassError": 1.114380643564716e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "floor",
+      "level": "low",
+      "absoluteMassError": 1.0305291104876134e-8,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "floor",
+      "level": "high",
+      "absoluteMassError": 1.043650481495709e-8,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "west",
+      "level": "low",
+      "absoluteMassError": 4.669435756128629e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "west",
+      "level": "high",
+      "absoluteMassError": 4.5866429915846695e-10,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "east",
+      "level": "low",
+      "absoluteMassError": 1.0283884116577268e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "east",
+      "level": "high",
+      "absoluteMassError": 1.0325795022831012e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "south",
+      "level": "low",
+      "absoluteMassError": 2.5205968474312018e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "south",
+      "level": "high",
+      "absoluteMassError": 2.4946476397738717e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "north",
+      "level": "low",
+      "absoluteMassError": 1.5873867709353983e-9,
+      "passed": true
+    },
+    {
+      "id": "offset",
+      "segment": "r_foot",
+      "face": "north",
+      "level": "high",
+      "absoluteMassError": 1.5480039896081462e-9,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "id": "three-fresh-context-default-starts",
+      "runs": [
+        {
+          "run": 0,
+          "firstSegmentMs": 569,
+          "completeMs": 1269,
+          "passed": true
+        },
+        {
+          "run": 1,
+          "firstSegmentMs": 517,
+          "completeMs": 1202,
+          "passed": true
+        },
+        {
+          "run": 2,
+          "firstSegmentMs": 501,
+          "completeMs": 1164,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "floor-position-hot-p95",
+      "coldFloorMs": 1660,
+      "initialSweep": [
+        {
+          "ms": 96.89999999850988,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 70.30000000447035,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 94.60000000149012,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 91.20000000298023,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 72,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 72.20000000298023,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 95.29999999701977,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 90.70000000298023,
+          "reused": true,
+          "quality": true
+        }
+      ],
+      "samples": [
+        {
+          "ms": 71.70000000298023,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 96.79999999701977,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 92.20000000298023,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 90.60000000149012,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 73,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 87.79999999701977,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 89.19999999552965,
+          "reused": true,
+          "quality": true
+        },
+        {
+          "ms": 69.60000000149012,
+          "reused": true,
+          "quality": true
+        }
+      ],
+      "p95Ms": 96.79999999701977,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "engineVersion": "2.4.0",
+  "floorResponseVersion": "floor-response-1.1.0",
+  "browser": "154.0.4258.62",
+  "conditions": "after DOM/dependency load; offline validation workers paused or complete; real floor input event to status/table update",
+  "generatedAt": "2026-10-09T16:20:00.275Z"
+}

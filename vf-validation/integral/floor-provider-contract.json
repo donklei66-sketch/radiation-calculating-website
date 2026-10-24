@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "scope": "Interface, positive-field restriction, mapped-cell conservation, cache certificate and cancellation; the independent isolated-sphere rectangle checks local refinement analytically. Synthetic uniform fields do not certify full-model physics.",
+  "checks": [
+    {
+      "id": "uniform-field-restriction-north",
+      "passed": true
+    },
+    {
+      "id": "uniform-field-restriction-east",
+      "passed": true
+    },
+    {
+      "id": "uniform-field-restriction-south",
+      "passed": true
+    },
+    {
+      "id": "uniform-field-restriction-west",
+      "passed": true
+    },
+    {
+      "id": "right-limb-exact-reflection",
+      "passed": true
+    },
+    {
+      "id": "unqualified-certificate-does-not-load",
+      "passed": true
+    },
+    {
+      "id": "wrong-model-certificate-does-not-load",
+      "passed": true
+    },
+    {
+      "id": "missing-file-falls-back",
+      "passed": true
+    },
+    {
+      "id": "wrong-record-qualification-falls-back",
+      "passed": true
+    },
+    {
+      "id": "negative-cell-refused",
+      "passed": true
+    },
+    {
+      "id": "outside-field-domain-falls-back",
+      "passed": true
+    },
+    {
+      "id": "noncardinal-yaw-falls-back-without-rounding",
+      "passed": true
+    },
+    {
+      "id": "validated-native-cache-bypasses-floor-provider",
+      "passed": true
+    },
+    {
+      "id": "cancel-during-provider-rejects-stale-result",
+      "passed": true
+    },
+    {
+      "id": "local-refinement-vs-independent-isolated-sphere-rectangle",
+      "fullError": 3.0399238126754824e-9,
+      "regionError": 5.454916310321245e-9,
+      "passed": true
+    },
+    {
+      "id": "local-refinement-direct-cancel",
+      "passed": true
+    },
+    {
+      "id": "collapsed-mapped-sub-ulp-cells-conserve-positive-mass",
+      "passed": true
+    },
+    {
+      "id": "significant-collapsed-mapped-mass-refused",
+      "passed": true
+    }
+  ],
+  "generatedAt": "2026-10-14T09:31:26.661Z"
+}

@@ -1,0 +1,33 @@
+{
+  "engineVersion": "2.4.0",
+  "geometryHash": "sha256:3C06964EABFEEC8BE42682588A5C5A76B2F5C1D38F23BD937A88AEE15788D317",
+  "checks": [
+    {
+      "id": "exact-endpoint-and-partition-3.2x2.6x2.4",
+      "passed": true
+    },
+    {
+      "id": "exact-endpoint-and-partition-2x2x2",
+      "passed": true
+    },
+    {
+      "id": "exact-endpoint-and-partition-5x4x2.8",
+      "passed": true
+    },
+    {
+      "id": "exact-endpoint-and-partition-3.123456789123x2.613456789123x2.5",
+      "passed": true
+    },
+    {
+      "id": "isolated-sphere-reciprocal-density",
+      "passed": true
+    },
+    {
+      "id": "bilateral-mirror-vs-independent-computations",
+      "passed": true,
+      "maxMirrorDifference": 7.91033905045424e-16
+    }
+  ],
+  "passed": true,
+  "generatedAt": "2026-10-09T15:18:54.145Z"
+}
